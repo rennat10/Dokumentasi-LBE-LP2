@@ -26,12 +26,12 @@ fungsi setTimeout berguna untuk mensimulasikan waktu berjalan setelah 1000 ms se
 ### Async
 
 Contoh fungsi penggunaan *Async* dalam program adalah seperti berikut:
-
+```
 const myFunc = async () => {
     const x = await tambah(10);
     const y = await kali(2);
 
     console.log(x + ' ' + y);
 };
-
+```
 Saya masih belum terlalu paham dengan penggunaan fungsi async dikarenakan node js yang saya gunakan belum tersedia fungsi async
