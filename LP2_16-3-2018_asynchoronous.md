@@ -12,7 +12,7 @@ NB: *sebaiknya jangan gunakan callback*
 Contoh fungsi penggunaan *Promise/Bluebird* dalam program adalah seperti berikut:
 
 const Bluebird = require('bluebird')
-
+```
 function tambah(data){
     return new Bluebird((resolve, reject) => {
         setTimeout(function(){
@@ -20,7 +20,7 @@ function tambah(data){
         }, 1000);
     })
 }
-
+```
 fungsi setTimeout berguna untuk mensimulasikan waktu berjalan setelah 1000 ms sebelum pemanggilan terjadi, sebelum itu, kita mereturn nilai Bluebird
 
 ### Async
